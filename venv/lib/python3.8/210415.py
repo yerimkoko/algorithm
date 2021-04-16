@@ -57,7 +57,7 @@
 # 6053
 # n = bool(int(input()))
 # print(not n)
-
-# 6054
-n, m = map(int, input().split(' '))
-print(bool(n) and bool(m))
+#
+# # 6054
+# n, m = map(int, input().split(' '))
+# print(bool(n) and bool(m))

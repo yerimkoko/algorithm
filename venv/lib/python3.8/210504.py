@@ -7,21 +7,21 @@
 #         break
 # print(d)
 
-# 6092
-import random
-n = int(input())
-a = []
-b = []
-for i in range(n):
-    a.append(random.randrange(1, n))
-
-for i in range(23):
-    b.append(0)
-
-for i in range(n):
-    b[a[i]] += 1
-
-for i in range(23):
-    print(b[i], end=' ')
+# # 6092
+# import random
+# n = int(input())
+# a = []
+# b = []
+# for i in range(n):
+#     a.append(random.randrange(1, n))
+#
+# for i in range(23):
+#     b.append(0)
+#
+# for i in range(n):
+#     b[a[i]] += 1
+#
+# for i in range(23):
+#     print(b[i], end=' ')
 
 
